@@ -1,0 +1,65 @@
+.registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 45%;
+  margin: 50px auto;
+  background-color: rgba(221, 160, 221, 0.761);
+  border: none;
+  box-shadow: 1px 3px 6px gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+.line {
+  width: 90%;
+  height: 30px;
+  margin: 5px auto;
+  /* top right bottom left */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.hrLine {
+  border: none;
+  border-top: 1px solid rgba(128, 0, 128, 0.615);
+  width: 100%;
+}
+.mailWrapper {
+  height: 75px;
+}
+span {
+  width: 100px;
+  height: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: purple;
+}
+.wrapper {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin-left: 30px;
+}
+.mailSection {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+input {
+  height: 30px;
+  width: 170px;
+  border: none;
+  border-bottom: 2px solid purple;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.624);
+  border-radius: 5px;
+}
+::placeholder {
+  padding-left: 10px;
+  color: rgba(128, 0, 128, 0.5);
+}
